@@ -1,6 +1,6 @@
 # ohmyzsh configs
 ZSH=$HOME/.oh-my-zsh
-ZSH_THEME="candy"
+ZSH_THEME="clean"
 
 # CASE_SENSITIVE="true"
 # DISABLE_AUTO_UPDATE="true"
@@ -15,7 +15,7 @@ alias updatedb="sudo /usr/libexec/locate.updatedb"
 alias tumx='tmux -2'
 
 # ohmyzsh plugins
-plugins=(git, vi-mode)
+plugins=(git)
 
 # virtualenvwrapper configs
 export WORKON_HOME=/Users/RMacy/.envs
