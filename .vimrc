@@ -10,6 +10,7 @@ set background=dark
 colorscheme default 
 
 " settings
+filetype plugin on
 set nocompatible
 set hidden
 set nu

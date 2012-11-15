@@ -3,3 +3,8 @@
 	email = ryan.w.macy@gmail.com
 [push]
 	default = simple
+[color]
+	ui = auto
+[core]
+	autocrlf = input
+	excludesfile = ~/.gitignore
