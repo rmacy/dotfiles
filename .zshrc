@@ -13,6 +13,7 @@ alias zshconfig="vim ~/.zshrc"
 alias ohmyzsh="vim ~/.oh-my-zsh"
 alias updatedb="sudo /usr/libexec/locate.updatedb"
 alias tumx='tmux -2'
+alias py='bpython'
 
 # ohmyzsh plugins
 plugins=(git)
@@ -26,5 +27,8 @@ export EDITOR="vim"
 export SHELL="/bin/zsh"
 
 source $ZSH/oh-my-zsh.sh
-export PATH=/usr/local/bin:/usr/local/share/python/:/usr/local/Cellar/ruby/1.9.3-p286/bin/:/usr/bin:/usr/sbin:/sbin:/bin
+export PATH=/usr/local/bin:/usr/local/share/npm/bin:/usr/local/share/python/:/usr/local/Cellar/ruby/1.9.3-p286/bin/:/usr/bin:/usr/sbin:/sbin:/bin:/Users/RMacy/Development/google_appengine
+export GOPATH=/Users/RMacy/.go:/Users/RMacy/Development/Go:/Users/RMacy/Development/GPython
 source /usr/local/share/python/virtualenvwrapper.sh
+
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
