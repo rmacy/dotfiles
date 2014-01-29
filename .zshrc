@@ -11,7 +11,7 @@ alias updatedb="sudo /usr/libexec/locate.updatedb"
 alias start-redis="redis-server /usr/local/etc/redis.conf"
 
 # ohmyzsh plugins
-plugins=(vi-mode, gitfast, brew, gem, bundler, lein, npm, bower, pip, python)
+plugins=(gitfast, brew, gem, bundler, lein, npm, bower, pip, python, vi-mode)
 
 # load up ohmyzsh
 source $ZSH/oh-my-zsh.sh
