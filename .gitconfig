@@ -6,14 +6,20 @@
 [color]
 	ui = auto
 [core]
+	ignorecase = false
 	autocrlf = input
 	excludesfile = ~/.gitignore
 [alias]
 	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%ci) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative --all
-	co = checkout
-	br = branch
 	ci = commit
+	amend = commit --amend
+	co = checkout
+	di = diff
+	dc = diff --cached
+	aa = add --all
+	br = branch
 	st = status
 	unstage = reset HEAD --
 	last = log -1 HEAD
-	aa = add --all
+[merge]
+	tool = vimdiff

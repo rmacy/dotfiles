@@ -11,7 +11,7 @@ alias updatedb="sudo /usr/libexec/locate.updatedb"
 alias start-redis="redis-server /usr/local/etc/redis.conf"
 
 # ohmyzsh plugins
-plugins=(git)
+plugins=(git, vi-mode)
 
 # load up ohmyzsh
 source $ZSH/oh-my-zsh.sh
@@ -36,3 +36,6 @@ export WORKON_HOME=$HOME/.envs
 export PROJECT_HOME=$HOME/Projects
 source /usr/local/bin/virtualenvwrapper.sh
 
+# Other
+export EDITOR=vim
+set -o emacs
