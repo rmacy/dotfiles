@@ -5,6 +5,11 @@ set nu                               " turn on line numbers
 set list                             " show invisibles
 set listchars=trail:.,tab:<-,nbsp:.  " set invisibles ascii representation
 set backspace=indent,eol,start
+
+set tabstop=4
+set shiftwidth=4
+set expandtab
+
 syntax on                            " turn on sytax highlighting
 
 " turn off arrow keys
