@@ -30,14 +30,18 @@ vnoremap <F1> <ESC>
 filetype off                   " required!
 
 " Vundle
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+set rtp+=~/.vim/bundle/Vundle.vim
 
-Bundle 'gmarik/vundle'
+call vundle#begin()
 
-Bundle 'guns/vim-clojure-static'
-Bundle 'tpope/vim-fireplace'
-Bundle 'kien/rainbow_parentheses.vim'
+Plugin 'gmarik/Vundle.vim'
+
+Plugin 'guns/vim-clojure-static'
+Plugin 'tpope/vim-fireplace'
+Plugin 'typedclojure/vim-typedclojure'
+Plugin 'kien/rainbow_parentheses.vim'
+
+call vundle#end()
 
 filetype plugin indent on      " required!
 
