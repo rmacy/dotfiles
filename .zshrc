@@ -27,11 +27,11 @@ export JAVA_HOME=$(/usr/libexec/java_home)
 export JDK_HOME=$JAVA_HOME
 
 # Google/Android Things
-# export PATH="/Users/RMacy/Projects/depot_tools":$PATH
+# export PATH="~/Projects/depot_tools":$PATH
 
 # Docker Things
 # export DOCKER_HOST=tcp://192.168.59.103:2376
-# export DOCKER_CERT_PATH=/Users/RMacy/.boot2docker/certs/boot2docker-vm
+# export DOCKER_CERT_PATH=~/.boot2docker/certs/boot2docker-vm
 # export DOCKER_TLS_VERIFY=1
 
 # GO Things
@@ -57,5 +57,3 @@ export EDITOR=vim
 export KEYTIMEOUT=1
 set -o emacs
 bindkey -v
-
-# source /Users/RMacy/.iterm2_shell_integration.zsh
