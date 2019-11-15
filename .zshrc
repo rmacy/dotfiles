@@ -14,7 +14,7 @@ export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 
 # ohmyzsh plugins
-plugins=(gitfast, brew, npm, vi-mode)
+plugins=(httpie git gitfast npm vi-mode osx vscode)
 
 # load up ohmyzsh
 source $ZSH/oh-my-zsh.sh
