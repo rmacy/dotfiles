@@ -6,8 +6,8 @@ set list                             " show invisibles
 set listchars=trail:.,tab:<-,nbsp:.  " set invisibles ascii representation
 set backspace=indent,eol,start
 
-set tabstop=4
-set shiftwidth=4
+set tabstop=2
+set shiftwidth=2
 set expandtab
 
 syntax on                            " turn on sytax highlighting
@@ -26,27 +26,3 @@ imap <down> <nop>
 inoremap <F1> <ESC>
 nnoremap <F1> <ESC>
 vnoremap <F1> <ESC>
-
-filetype off                   " required!
-
-" Vundle
-set rtp+=~/.vim/bundle/Vundle.vim
-
-call vundle#begin()
-
-Plugin 'gmarik/Vundle.vim'
-
-Plugin 'guns/vim-clojure-static'
-Plugin 'tpope/vim-fireplace'
-Plugin 'typedclojure/vim-typedclojure'
-Plugin 'kien/rainbow_parentheses.vim'
-
-call vundle#end()
-
-filetype plugin indent on      " required!
-
-" Rainbow Parens
-au VimEnter * RainbowParenthesesToggle
-au Syntax * RainbowParenthesesLoadRound
-au Syntax * RainbowParenthesesLoadSquare
-au Syntax * RainbowParenthesesLoadBraces
